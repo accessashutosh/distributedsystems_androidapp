@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D1FFFF"
+    android:orientation="vertical"
+    android:layout_marginTop="0dp">
+
+
+    <TextView
+        android:id="@+id/mainmenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="25dp"
+        android:text="Main Menu"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/manage_books"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Manage Books" />
+
+
+    <Button
+        android:id="@+id/manage_branch"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Manage Branch" />
+
+    <Button
+        android:id="@+id/manage_inventory"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Manage Inventory" />
+
+</LinearLayout>
